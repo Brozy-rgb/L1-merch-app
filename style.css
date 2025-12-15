@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background: #151e3f;
+    overflow-x: hidden;
+    font-family: Geologica, sans-serif;
+}
+
+nav {
+    background: #151e3f;
+}
+
+.nav-cart {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 3em;
+}
+
+.logo-join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.back-icon img {
+    transform: translateY(-5em);
+    margin-left: 2em;
+}
+
+.back-icon-cart img {
+    margin-left: -6em;
+    transform: translateY(-8em);
+}
+
+.logo-cart img {
+    margin-top: 5em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    padding-bottom: 3em;
+}
+
+.cart {
+    padding-top: 2em;
+    padding-left: 4em;
+    padding-right: 3em;
+}
+
+.pink-circle {
+    position: relative;
+    width: 110%;
+    transform: translateX(-0.65em);
+}
+
+.pink-circle img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transform: translateX(-1em);
+}
+
+.circle-content {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translateY(-50%, -50%);
+    width: 65%;
+    text-align: center;
+}
+
+.circle-content p {
+    font-size: 1em;
+    font-family: Geologica, sans-serif;
+    line-height: 1.4;
+    color: #151e3f;
+    transform: translateX(-11.5em);
+    display: flex;
+    margin-top: -8em;
+}
+
+.btn-home {
+    display: inline-block;
+    border-radius: 2.5em;
+    background: #151e3f;
+    color: #FA9589;
+    text-decoration: none;
+    font-size: 1em;
+    width: 6em;
+    height: 2em;
+    text-align: center;
+    padding-top: 0.6em;
+    transform: translateX(-11.5em);
+    margin-top: 1em;
+    font-family: Geologoca, sans-serif;
+    font-weight: bold;
+}
+
+.merch-home h1 {
+    font-family: Geologoca, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.merch-home hr {
+    border: none;
+    background-color: #FA9589;
+    height: 2px;
+    width: 26em;
+}
+
+.merch-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+    padding: 1.5em;
+}
+
+.merch-section > div {
+    border-radius: 1.5em;
+    padding: 1em;
+    text-align: center;
+}
+
+.merch-section img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.merch-section p:first-of-type {
+    font-size: 0.9em;
+    color: white;
+    margin: 0.3em 0 0;
+}
+
+.merch-section p:nth-of-type(2) {
+    font-size: 0.8em;
+    color: white;
+    margin: 0.2em 0 .5;
+}
+
+.merch-section a {
+    display: inline-block;
+    background-color: #EFDECD;
+    color: black;
+    text-decoration: none;
+    font-size: 0.75em;
+    padding: 0.4em 0.9em;
+    border-radius: 1.5em;
+}
+
+.merch-section a:active {
+    transform: scale(0.95);
+}
+
+.ideeen h2 {
+    font-family: Geologoca, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.ideeen hr {
+    border: none;
+    background-color: #FA9589;
+    height: 2px;
+    width: 26em;
+}
+
+.ideeen input {
+    background: #FA9589;
+    border-radius: 2.5em;
+    width: 25em;
+    height: 2em;
+    transform: translateX(5em);
+    margin-top: 2em;
+}
+
+.ideeen ::placeholder {
+    font-family: Geologica, sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    color: #151e3f;
+}
+
+.ideeen img {
+    transform: translateX(2.5em);
+    width: 1em;
+    height: 1em;
+}
+
+.footer h2 {
+    font-family: Geologoca, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.footer a {
+    font-family: Geologica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #FA9589;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.h1-join {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.input-velden {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    width: 25em;
+    height: 5em;
+    transform: translateX(5em);
+    border-radius: 2em;
+    margin-top: 2em;
+}
+
+.email {
+    width: 25em;
+    height: 5em;
+    transform: translateX(5em);
+    border-radius: 2em;
+    margin-top: 1.5em;
+}
+
+.input-velden ::placeholder {
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 1em;
+}
+
+.input-velden a {
+    background: #FA9589;
+    width: 8em;
+    height: 2em;
+    border-radius: 2.5em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    margin-top: 2em;
+    transform: translateX(6em);
+}
+
+.join-btn {
+    padding-top: 0.5em;
+}
+
+.cart-regenlaarzen img {
+    
+}
+
+
