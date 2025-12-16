@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-html, body {
-    width: 100%;
+body {
     overflow-x: hidden;
     background: #151e3f;
     font-family: Geologica, sans-serif;
@@ -973,31 +972,3 @@ nav {
 
 
 
-@media (max-width: 768px) {
-
-    * {
-        transform: none !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .cart,
-    .cart-regenlaarzen,
-    .cart-tas,
-    .cart-pop-socket {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0;
-    }
-
-    .checkout hr,
-    .totaal-lijn {
-        width: 90%;
-        margin: 2em auto;
-    }
-}
