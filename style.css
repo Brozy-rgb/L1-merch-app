@@ -433,14 +433,17 @@ nav {
     height: 2em;
     border-radius: 2.5em;
     transform: translateX(18em);
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 .cart-btn a {
+    display: inline-block;
     text-decoration: none;
     color: white;
     text-align: center;
-    padding-left: 0.7em;
+    margin-left: 0.7em;
+    margin-top: 0.3em;
+    
 }
 
 .logo-ideeen {
