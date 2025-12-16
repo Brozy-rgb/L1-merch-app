@@ -93,17 +93,21 @@ nav {
     display: inline-block;
     border-radius: 2.5em;
     background: #151e3f;
-    color: #FA9589;
-    text-decoration: none;
     font-size: 1em;
     width: 6em;
     height: 2em;
-    text-align: center;
     padding-top: 0.6em;
     transform: translateX(-11.5em);
-    margin-top: 1em;
+    margin-top: 2em;
     font-family: Geologoca, sans-serif;
+}
+
+.btn-home a {
+    text-decoration: none;
+    color: #FA9589;
+    text-align: center;
     font-weight: bold;
+    
 }
 
 .merch-home h1 {
@@ -200,8 +204,8 @@ nav {
 }
 
 .send-ideeen-1 {
-    margin-left: 24em;
-    transform: translateY(-1.4em);
+    margin-left: 23.5em;
+    transform: translateY(-1.3em);
 }
 
 .send-ideeen {
@@ -493,11 +497,11 @@ nav {
 }
 
 .send-ideeen {
-    transform: translateY(-3.5em);
+    transform: translateY(-3.3em);
 }
 
 .send-ideeen img {
-    transform: translateX(21.5em);
+    transform: translateX(21em);
     width: 1em;
     height: 1em;
 }
