@@ -195,13 +195,23 @@ nav {
     color: #151e3f;
 }
 
+.send-ideeen-1 {
+    margin-left: 24em;
+    transform: translateY(-1.4em);
+}
+
 .send-ideeen {
-    margin-left: 2.5em;
-    margin-top: 2em;
+    margin-left: 2;
+    margin-top: 2;
+}
+
+.send-ideeen-1 img {
+    width: 1em;
+    height: 1em;
 }
 
 .send-ideeen img {
-    transform: translateX(em);
+    
     width: 1em;
     height: 1em;
 }
@@ -402,7 +412,12 @@ nav {
     margin: 0 0 0.3em;
 }
 
+.verzending-lijn {
+    border: none;
+}
+
 .totaal-lijn {
+    border: none;
     max-width: 10em;
     background-color: white;
     margin-left: 17.5em;
@@ -478,4 +493,435 @@ nav {
     transform: translateX(21.5em);
     width: 1em;
     height: 1em;
+}
+
+.logo-regenlaarzen {
+    text-align: center;
+}
+
+.regenlaarzen-img img {
+    margin-left: 2.5em;
+    border-radius: 2.5em;
+    width: 25em;
+    height: 25em;
+}
+
+.logo-regenlaarzen-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.cart-regenlaarzen-page {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 2em;
+    transform: translateY(-2.5em);
+}
+
+.back-regenlaarzen-page {
+    transform: translateY(1.5em);
+}
+
+.regenlaarzen-img-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.regenlaarzen-img-page img {
+    width: 25em;
+    height: 25em;
+    border-radius: 2.5em;
+}
+
+.regenlaarzen-page h2 {
+    color: white;
+    margin-top: 2em;
+    margin-left: 2em;
+    font-weight: 500;
+}
+
+.regenlaarzen-page p {
+    color: white;
+    margin-left: 3em;
+}
+
+.regenlaarzen-page img {
+    margin-left: 25em;
+    transform: translateY(-5em);
+
+}
+
+#maat {
+    margin-left: 3em;
+    width: 10em;
+    height: 2em;
+    border-radius: 2.5em;
+    background: #FA9589;
+    text-align: center;
+    font-size: 1em;
+    color: #151e3f;
+    font-weight: bold;
+}
+
+.regenlaarzen-btn {
+    background-color: #FA9589;
+    width: 10em;
+    height: 2em;
+    border-radius: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(10em);
+    margin-top: 5em;
+}
+
+.regenlaarzen-btn a {
+    text-decoration: none;
+    color: #151e3f;
+    font-weight: bold;
+}
+
+.logo-regenjas {
+    text-align: center;
+}
+
+.regenjas-img img {
+    margin-left: 2.5em;
+    border-radius: 2.5em;
+    width: 25em;
+    height: 25em;
+}
+
+.logo-regenjas-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.cart-regenjas-page {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 2em;
+    transform: translateY(-2.5em);
+}
+
+.back-regenjas-page {
+    transform: translateY(1.5em);
+}
+
+.regenjas-img-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.regenjas-img-page img {
+    width: 25em;
+    height: 25em;
+    border-radius: 2.5em;
+}
+
+.regenjas-page h2 {
+    color: white;
+    margin-top: 2em;
+    margin-left: 2em;
+    font-weight: 500;
+}
+
+.regenjas-page p {
+    color: white;
+    margin-left: 3em;
+}
+
+.regenjas-page img {
+    margin-left: 25em;
+    transform: translateY(-5em);
+
+}
+
+#maat-regenjas {
+    margin-left: 3em;
+    width: 10em;
+    height: 2em;
+    border-radius: 2.5em;
+    background: #FA9589;
+    text-align: center;
+    font-size: 1em;
+    color: #151e3f;
+    font-weight: bold;
+}
+
+.regenjas-btn {
+    background-color: #FA9589;
+    width: 10em;
+    height: 2em;
+    border-radius: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(10em);
+    margin-top: 5em;
+}
+
+.regenjas-btn a {
+    text-decoration: none;
+    color: #151e3f;
+    font-weight: bold;
+}
+
+.logo-jas {
+    text-align: center;
+}
+
+.jas-img img {
+    margin-left: 2.5em;
+    border-radius: 2.5em;
+    width: 25em;
+    height: 25em;
+}
+
+.logo-jas-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.cart-jas-page {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 2em;
+    transform: translateY(-2.5em);
+}
+
+.back-jas-page {
+    transform: translateY(1.5em);
+}
+
+.jas-img-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.jas-img-page img {
+    width: 25em;
+    height: 25em;
+    border-radius: 2.5em;
+}
+
+.jas-page h2 {
+    color: white;
+    margin-top: 2em;
+    margin-left: 2em;
+    font-weight: 500;
+}
+
+.jas-page p {
+    color: white;
+    margin-left: 3em;
+}
+
+.jas-page img {
+    margin-left: 25em;
+    transform: translateY(-5em);
+
+}
+
+#maat-jas {
+    margin-left: 3em;
+    width: 10em;
+    height: 2em;
+    border-radius: 2.5em;
+    background: #FA9589;
+    text-align: center;
+    font-size: 1em;
+    color: #151e3f;
+    font-weight: bold;
+}
+
+.jas-btn {
+    background-color: #FA9589;
+    width: 10em;
+    height: 2em;
+    border-radius: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(10em);
+    margin-top: 5em;
+}
+
+.jas-btn a {
+    text-decoration: none;
+    color: #151e3f;
+    font-weight: bold;
+}
+
+.logo-sticker {
+    text-align: center;
+}
+
+.sticker-img img {
+    margin-left: 2.5em;
+    border-radius: 2.5em;
+    width: 25em;
+    height: 25em;
+}
+
+.logo-sticker-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.cart-sticker-page {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 2em;
+    transform: translateY(-2.5em);
+}
+
+.back-sticker-page {
+    transform: translateY(1.5em);
+}
+
+.sticker-img-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.sticker-img-page img {
+    width: 25em;
+    height: 25em;
+    border-radius: 2.5em;
+}
+
+.sticker-page h2 {
+    color: white;
+    margin-top: 2em;
+    margin-left: 2em;
+    font-weight: 500;
+}
+
+.sticker-page p {
+    color: white;
+    margin-left: 3em;
+}
+
+.sticker-page img {
+    margin-left: 25em;
+    transform: translateY(-5em);
+
+}
+
+.sticker-btn {
+    background-color: #FA9589;
+    width: 10em;
+    height: 2em;
+    border-radius: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(10em);
+    margin-top: 2em;
+}
+
+.sticker-btn a {
+    text-decoration: none;
+    color: #151e3f;
+    font-weight: bold;
+}
+
+.logo-pop-socket {
+    text-align: center;
+}
+
+.pop-socket-img img {
+    margin-left: 2.5em;
+    border-radius: 2.5em;
+    width: 25em;
+    height: 25em;
+}
+
+.logo-pop-socket-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.cart-pop-socket-page {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 2em;
+    transform: translateY(-2.5em);
+}
+
+.back-pop-socket-page {
+    transform: translateY(1.5em);
+}
+
+.pop-socket-img-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.pop-socket-img-page img {
+    width: 25em;
+    height: 25em;
+    border-radius: 2.5em;
+}
+
+.pop-socket-page h2 {
+    color: white;
+    margin-top: 2em;
+    margin-left: 2em;
+    font-weight: 500;
+}
+
+.pop-socket-page p {
+    color: white;
+    margin-left: 3em;
+}
+
+.pop-socket-page img {
+    margin-left: 25em;
+    transform: translateY(-5em);
+
+}
+
+.pop-socket-btn {
+    background-color: #FA9589;
+    width: 10em;
+    height: 2em;
+    border-radius: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(10em);
+    margin-top: 2em;
+}
+
+.pop-socket-btn a {
+    text-decoration: none;
+    color: #151e3f;
+    font-weight: bold;
 }
