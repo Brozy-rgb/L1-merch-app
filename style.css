@@ -476,7 +476,7 @@ nav {
 .ideeen-main img {
     width: 25em;
     height: auto;
-    margin-left: 2.5em;
+    margin-left: 5em;
     margin-top: 2em;
 }
 
@@ -485,7 +485,7 @@ nav {
     border-radius: 2.5em;
     width: 25em;
     height: 2em;
-    transform: translateX(5em);
+    transform: translateX(10em);
     margin-top: 2em;
 }
 
