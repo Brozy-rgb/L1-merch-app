@@ -969,3 +969,35 @@ nav {
     margin-left: 3em;
     margin-top: 2em;
 }
+
+
+
+
+@media (max-width: 768px) {
+
+    * {
+        transform: none !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .cart,
+    .cart-regenlaarzen,
+    .cart-tas,
+    .cart-pop-socket {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .checkout hr,
+    .totaal-lijn {
+        width: 90%;
+        margin: 2em auto;
+    }
+}
