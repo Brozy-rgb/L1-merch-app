@@ -84,7 +84,7 @@ nav {
     font-family: Geologica, sans-serif;
     line-height: 1.4;
     color: #151e3f;
-    transform: translateX(-11.5em);
+    transform: translateX(-10em);
     display: flex;
     margin-top: -8em;
 }
@@ -97,7 +97,7 @@ nav {
     width: 6em;
     height: 2em;
     padding-top: 0.6em;
-    transform: translateX(-11.5em);
+    transform: translateX(-10em);
     margin-top: 2em;
     font-family: Geologoca, sans-serif;
 }
