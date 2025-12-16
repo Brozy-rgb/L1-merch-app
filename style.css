@@ -49,12 +49,18 @@ nav {
 
 .logo img {
     padding-bottom: 3em;
+    transform: translateX(4em);
 }
 
 .cart {
     padding-top: 2em;
-    padding-left: 4em;
+    padding-left: 2em;
     padding-right: 3em;
+}
+
+.cart img {
+    margin-left: 2em;
+    transform: translateX(2em);
 }
 
 .pink-circle {
@@ -80,13 +86,13 @@ nav {
 }
 
 .circle-content p {
-    font-size: 1em;
+    font-size: 0.8em;
     font-family: Geologica, sans-serif;
     line-height: 1.4;
     color: #151e3f;
-    transform: translateX(-5em);
+    transform: translateX(-10.5em);
     display: flex;
-    margin-top: -8em;
+    margin-top: -6em;
 }
 
 .btn-home {
@@ -97,8 +103,8 @@ nav {
     width: 6em;
     height: 2em;
     padding-top: 0.6em;
-    transform: translateX(-5em);
-    margin-top: 2em;
+    transform: translateX(-8.5em);
+    margin-top: 1em;
     font-family: Geologoca, sans-serif;
 }
 
@@ -122,7 +128,7 @@ nav {
     border: none;
     background-color: #FA9589;
     height: 2px;
-    width: 26em;
+    width: 20em;
 }
 
 .merch-section {
@@ -184,15 +190,15 @@ nav {
     border: none;
     background-color: #FA9589;
     height: 2px;
-    width: 26em;
+    width: 20em;
 }
 
 .ideeen input {
     background: #FA9589;
     border-radius: 2.5em;
-    width: 25em;
+    width: 20em;
     height: 2em;
-    transform: translateX(12em);
+    transform: translateX(3em);
     margin-top: 2em;
 }
 
@@ -216,6 +222,7 @@ nav {
 .send-ideeen-1 img {
     width: 1em;
     height: 1em;
+    margin-left: -6em;
 }
 
 .send-ideeen img {
@@ -263,7 +270,7 @@ nav {
 .name {
     width: 25em;
     height: 5em;
-    transform: translateX(5em);
+    transform: translateX(0.5em);
     border-radius: 2em;
     margin-top: 2em;
 }
@@ -271,7 +278,7 @@ nav {
 .email {
     width: 25em;
     height: 5em;
-    transform: translateX(5em);
+    transform: translateX(0.5em);
     border-radius: 2em;
     margin-top: 1.5em;
 }
@@ -299,6 +306,26 @@ nav {
 
 .join-btn {
     padding-top: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-btn a {
+    transform: translateX(-0.1em);
+    text-align: center;
+}
+
+.logo-cart {
+    transform: translateX(-3.5em);
+}
+
+.logo-cart {
+    text-align: center;
+}
+
+.back-icon-cart {
+    transform: translateY(-8em);
 }
 
 .cart-regenlaarzen {
@@ -309,8 +336,8 @@ nav {
 }
 
 .cart-regenlaarzen img {
-    width: 12em;
-    height: 12em;
+    width: 8em;
+    height: 8em;
     border-radius: 2.5em;
 }
 
@@ -325,6 +352,8 @@ nav {
 
 .cart-text-1 h2 {
     margin: 0 0 0.3em 0;
+    font-size: 1em;
+    margin-top: 2em;
 }
 
 .cart-text-1 p {
@@ -344,8 +373,8 @@ nav {
 }
 
 .cart-tas img {
-    width: 12em;
-    height: 12em;
+    width: 8em;
+    height: 8em;
     border-radius: 2.5em;
 }
 
@@ -360,6 +389,8 @@ nav {
 
 .cart-text-2 h2 {
     margin: 0 0 0.3em 0;
+    font-size: 1em;
+    margin-top: 2em;
 }
 
 .cart-text-2 p {
@@ -375,8 +406,8 @@ nav {
 }
 
 .cart-pop-socket img {
-    width: 12em;
-    height: 12em;
+    width: 8em;
+    height: 8em;
     border-radius: 2.5em;
 }
 
@@ -391,6 +422,9 @@ nav {
 
 .cart-text-3 h2 {
     margin: 0 0 0.3em 0;
+    font-size: 1em;
+    margin-top: 2em;
+    max-width: 7em;
 }
 
 .cart-text-3 p {
@@ -399,7 +433,7 @@ nav {
 
 .checkout hr {
     background-color: #FA9589;
-    width: 30em;
+    width: 17em;
     height: 2px;
     margin-top: 2em;
 }
@@ -426,9 +460,9 @@ nav {
 
 .totaal-lijn {
     border: none;
-    max-width: 10em;
+    max-width: 7em;
     background-color: white;
-    margin-left: 24em;
+    margin-left: 12em;
 }
 
 .totaal {
@@ -440,7 +474,7 @@ nav {
     width: 10em;
     height: 2em;
     border-radius: 2.5em;
-    transform: translateX(24em);
+    transform: translateX(9em);
     margin-top: 2em;
 }
 
@@ -463,7 +497,7 @@ nav {
 
 .back-icon-ideeen img {
     transform: translateY(-4em);
-    margin-left: 2em;
+    margin-left: 1em;
 }
 
 .h1-ideeen {
@@ -474,18 +508,18 @@ nav {
 }
 
 .ideeen-main img {
-    width: 25em;
+    width: 20em;
     height: auto;
-    margin-left: 5em;
+    margin-left: 0.8em;
     margin-top: 2em;
 }
 
 .ideeen-main input {
     background: #FA9589;
     border-radius: 2.5em;
-    width: 25em;
+    width: 20em;
     height: 2em;
-    transform: translateX(10em);
+    transform: translateX(3em);
     margin-top: 2em;
 }
 
@@ -497,11 +531,11 @@ nav {
 }
 
 .send-ideeen {
-    transform: translateY(-3.3em);
+    transform: translateY(-3.2em);
 }
 
 .send-ideeen img {
-    transform: translateX(21em);
+    transform: translateX(16.5em);
     width: 1em;
     height: 1em;
 }
@@ -528,12 +562,12 @@ nav {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    margin-right: 2em;
+    margin-right: 1em;
     transform: translateY(-2.5em);
 }
 
 .back-regenlaarzen-page {
-    transform: translateY(1.5em);
+    transform: translateY(-1em);
 }
 
 .regenlaarzen-img-page {
@@ -544,21 +578,21 @@ nav {
 }
 
 .regenlaarzen-img-page img {
-    width: 25em;
-    height: 25em;
+    width: 20em;
+    height: 20em;
     border-radius: 2.5em;
 }
 
 .regenlaarzen-page h2 {
     color: white;
     margin-top: 2em;
-    margin-left: 2em;
-    font-weight: 500;
+    margin-left: 0.5em;
+    font-weight: 250;
 }
 
 .regenlaarzen-page p {
     color: white;
-    margin-left: 3em;
+    margin-left: 1em;
 }
 
 .regenlaarzen-page img {
@@ -568,7 +602,7 @@ nav {
 }
 
 #maat {
-    margin-left: 3em;
+    margin-left: 1em;
     width: 10em;
     height: 2em;
     border-radius: 2.5em;
@@ -587,7 +621,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateX(10em);
+    transform: translateX(6em);
     margin-top: 5em;
 }
 
@@ -604,8 +638,8 @@ nav {
 .regenjas-img img {
     margin-left: 2.5em;
     border-radius: 2.5em;
-    width: 25em;
-    height: 25em;
+    width: 20em;
+    height: 20em;
 }
 
 .logo-regenjas-page {
@@ -635,21 +669,21 @@ nav {
 }
 
 .regenjas-img-page img {
-    width: 25em;
-    height: 25em;
+    width: 20em;
+    height: 20em;
     border-radius: 2.5em;
 }
 
 .regenjas-page h2 {
     color: white;
     margin-top: 2em;
-    margin-left: 2em;
-    font-weight: 500;
+    margin-left: 0.5em;
+    font-weight: 250;
 }
 
 .regenjas-page p {
     color: white;
-    margin-left: 3em;
+    margin-left: 1em;
 }
 
 .regenjas-page img {
@@ -659,7 +693,7 @@ nav {
 }
 
 #maat-regenjas {
-    margin-left: 3em;
+    margin-left: 0.5em;
     width: 10em;
     height: 2em;
     border-radius: 2.5em;
@@ -678,7 +712,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateX(10em);
+    transform: translateX(6em);
     margin-top: 5em;
 }
 
@@ -726,21 +760,21 @@ nav {
 }
 
 .jas-img-page img {
-    width: 25em;
-    height: 25em;
+    width: 20em;
+    height: 20em;
     border-radius: 2.5em;
 }
 
 .jas-page h2 {
     color: white;
     margin-top: 2em;
-    margin-left: 2em;
+    margin-left: 0.5em;
     font-weight: 500;
 }
 
 .jas-page p {
     color: white;
-    margin-left: 3em;
+    margin-left: 1em;
 }
 
 .jas-page img {
@@ -750,7 +784,7 @@ nav {
 }
 
 #maat-jas {
-    margin-left: 3em;
+    margin-left: 0.5em;
     width: 10em;
     height: 2em;
     border-radius: 2.5em;
@@ -769,7 +803,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateX(10em);
+    transform: translateX(6em);
     margin-top: 5em;
 }
 
@@ -801,12 +835,12 @@ nav {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    margin-right: 2em;
+    margin-right: 1em;
     transform: translateY(-2.5em);
 }
 
 .back-sticker-page {
-    transform: translateY(1.5em);
+    transform: translateY(-1em);
 }
 
 .sticker-img-page {
@@ -817,21 +851,21 @@ nav {
 }
 
 .sticker-img-page img {
-    width: 25em;
-    height: 25em;
+    width: 20em;
+    height: 20em;
     border-radius: 2.5em;
 }
 
 .sticker-page h2 {
     color: white;
     margin-top: 2em;
-    margin-left: 2em;
+    margin-left: 1em;
     font-weight: 500;
 }
 
 .sticker-page p {
     color: white;
-    margin-left: 3em;
+    margin-left: 1.5em;
 }
 
 .sticker-page img {
@@ -848,7 +882,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateX(10em);
+    transform: translateX(6em);
     margin-top: 2em;
 }
 
@@ -865,8 +899,8 @@ nav {
 .pop-socket-img img {
     margin-left: 2.5em;
     border-radius: 2.5em;
-    width: 25em;
-    height: 25em;
+    width: 20em;
+    height: 20em;
 }
 
 .logo-pop-socket-page {
@@ -896,21 +930,21 @@ nav {
 }
 
 .pop-socket-img-page img {
-    width: 25em;
-    height: 25em;
+    width: 20em;
+    height: 20em;
     border-radius: 2.5em;
 }
 
 .pop-socket-page h2 {
     color: white;
     margin-top: 2em;
-    margin-left: 2em;
+    margin-left: 1em;
     font-weight: 500;
 }
 
 .pop-socket-page p {
     color: white;
-    margin-left: 3em;
+    margin-left: 1.5em;
 }
 
 .pop-socket-page img {
@@ -927,7 +961,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateX(10em);
+    transform: translateX(6em);
     margin-top: 2em;
 }
 
@@ -939,37 +973,37 @@ nav {
 
 .regenlaarzen-page-text {
     color: white;
-    margin-left: 3em;
+    margin-left: 1em;
     margin-top: 2em;
 }
 
 .jas-page-text {
     color: white;
-    margin-left: 3em;
+    margin-left: 1em;
     margin-top: 2em;
 }
 
 .pop-socket-page-text {
     color: white;
-    margin-left: 3em;
+    margin-left: 1em;
     margin-top: 2em;
 }
 
 .regenjas-page-text {
     color: white;
-    margin-left: 3em;
+    margin-left: 1em;
     margin-top: 2em;
 }
 
 .sticker-page-text {
     color: white;
-    margin-left: 3em;
+    margin-left: 1em;
     margin-top: 2em;
 }
 
 .tas-page-text {
     color: white;
-    margin-left: 3em;
+    margin-left: 1em;
     margin-top: 2em;
 }
 
